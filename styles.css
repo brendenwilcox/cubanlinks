@@ -93,3 +93,15 @@ h7 {
   font-size: 25px;
   color: #FFF;
 }
+.card {
+  align-items: center;
+}
+.navbar-toggler {
+  background-color: #FFF;
+}
+.navbar-tollger-icon {
+  background-color: #5c00e6;
+}
+.icon-bar {
+  color: #5c00e6;
+}
