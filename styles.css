@@ -64,9 +64,6 @@ h1 {
 .nav-link {
   color:  #5c00e6;
 }
-p {
-  color: #FFF;
-}
 body {
   background-color: black;
 }
@@ -88,6 +85,10 @@ body {
 }
 h6 {
   font-size: 25px;
+  color: #5c00e6;
+}
+h5 {
+  color: #5c00e6;
 }
 h7 {
   font-size: 25px;
@@ -124,7 +125,7 @@ h7 {
   background-color: black;
 }
 
-.container:hover .overlay {
+.card:hover .overlay {
   opacity: 1;
 }
 .card {
@@ -138,17 +139,29 @@ h7 {
   border-color: #5c00e6;
   margin-bottom: 30px;
 }
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 .text-body {
   text-align: center;
+}
+.reviews {
+  text-align: center;
+}
+h9 {
+  font-size: 25px;
+  color: #FFF;
+  align-items: center;
+}
+.alert {
+  text-align: center;
+}
+label {
+  color: #FFF;
+}
+p {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+}
+h10 {
+  color: #FFF;
+  font-size: 17px;
 }
