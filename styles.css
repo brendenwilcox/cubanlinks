@@ -66,7 +66,7 @@ h1 {
   background-color: #5c00e6;
 }
 .nav-link {
-  color:  #5c00e6;
+  color:  #FFF;
 }
 body {
   background-color: black;
@@ -184,4 +184,33 @@ h11 {
   color: #5c00e6;
   font-family: 'Roboto Mono', monospace;
   font-size: 17px;
+}
+.reserve {
+  padding: 20px;
+}
+blink {
+  -webkit-animation: .5s linear infinite condemned_blink_effect; // for Safari 4.0 - 8.0
+  animation: .5s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for Safari 4.0 - 8.0
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
