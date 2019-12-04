@@ -62,6 +62,9 @@ blink {
 .navbar-tollger-icon {
   background-color: #5c00e6;
 }
+.navbar-brand {
+  max-width: 50%;
+}
   /*Navbar Dropdown*/
   .dropdown-menu {
     background-color: #5c00e6;
@@ -197,4 +200,16 @@ h11 {
   color: #5c00e6;
   font-family: 'Roboto Mono', monospace;
   font-size: 17px;
+}
+
+@media (max-width: 414px) {
+  .chase {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .chase {
+    max-width: 100%;
+  }
 }
