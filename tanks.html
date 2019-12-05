@@ -11,6 +11,7 @@
   <title>The Lost Reserve</title>
   <link rel="icon" href="C:\Users\brenden.wilcox\Documents\GitHub\cubanlinks\img\tlr.png">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="StorageStyle.css">
 </head>
   <body>
@@ -78,28 +79,51 @@
         <div class="text-body">
           <h5>Tank</h5>
           <h6>$20.00</h6>
-          <div id="main">
-              <table>
-                  <tbody><tr>
+          <form name="ShoppingList">
 
 
 
-                      <td><b>Item:</b><input type="text" name="name"></td>
-                      <td><b>Quantity:</b><input type="text" name="data"></td>
+                                                       <div id="main">
+                                                           <table>
+                                                               <tbody><tr>
 
 
 
-                  </tr>
+                                                                   <td><b>Item:</b><input type="text" name="name"></td>
+                                                                   <td><b>Quantity:</b><input type="text" name="data"></td>
 
 
 
-                  <tr>
-                      <td>
-                          <input type="button" value="Save" onclick="SaveItem()">
-                      </td>
-                  </tr>
-              </tbody></table>
-          </div>
+                                                               </tr>
+
+
+
+                                                               <tr>
+                                                                   <td>
+                                                                       <input type="button" value="Save" onclick="SaveItem()">
+                                                                       <input type="button" value="Update" onclick="ModifyItem()">
+                                                                       <input type="button" value="Delete" onclick="RemoveItem()">
+                                                                   </td>
+                                                               </tr>
+                                                           </tbody></table>
+                                                       </div>
+
+
+
+                                                       <div id="items_table">
+                                                           <h3>Shopping List</h3>
+                                                           <table id="list"><tbody><tr><th>Item</th><th>Value</th></tr>
+
+
+
+          </tbody></table>
+                                                           <p>
+                                                               <label><input type="button" value="Clear" onclick="ClearAll()">
+                                                                   <i>* Delete all items</i></label>
+                                                           </p>
+                                                       </div>
+                                                   </form>
+
         </div>
       </div>
             <img src="img/TANK1.jpg" alt="card-1" class="card-img-top">

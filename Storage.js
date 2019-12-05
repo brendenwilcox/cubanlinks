@@ -91,3 +91,11 @@ function CheckBrowser() {
 /*
 You can extend this script by inserting data to database or adding payment processing API to shopping cart..
 */
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var clicked = getParameterByName('clicked');
